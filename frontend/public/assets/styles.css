@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    max-width: 850px; /* Standard letter width */
+    margin: 0 auto;
+}
+
+/* Header (Name and Contact Info) */
+.header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 0 0 5px 0;
+    font-weight: bold;
+}
+
+.contact-info {
+    font-size: 11px;
+    margin: 0;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Section Styling */
+.section {
+    margin-bottom: 18px;
+}
+
+.section-title {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 2px;
+    margin-bottom: 8px;
+	text-align: center;
+}
+
+/* Job/Project/Education Entry Styling */
+.entry {
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+/* Employer Group Styling for multi-role listings */
+.employer-group {
+    margin-bottom: 8px;
+}
+
+/* Entry Header/Metadata */
+.entry-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.entry-title {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* New: Styling for the main company name and location */
+.company-name {
+    font-size: 13px;
+    font-weight: bold;
+	text-transform: uppercase;
+}
+.company-location {
+    font-size: 11px;
+}
+
+.position-details {
+    /* Adjust margin to tighten space after Company Name if it's an employer-group */
+    margin-top: 4px; 
+    margin-bottom: 4px;
+}
+
+.entry-location, .entry-date {
+    font-size: 11px;
+}
+
+.entry-subheader {
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 2px;
+}
+
+/* List Styling (Job descriptions) */
+.entry ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 4px;
+    font-size: 11px;
+}
+
+.entry ul li {
+    margin-bottom: 2px;
+}
+
+/* Skills Specific Styling */
+.skills-content {
+    font-size: 11px;
+}
+
+.skills-content strong {
+    font-weight: bold;
+}

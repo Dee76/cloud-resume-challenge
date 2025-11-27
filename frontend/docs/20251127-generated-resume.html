@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruby Swift Resume</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            max-width: 850px; /* Standard letter width */
+            margin: 0 auto;
+        }
+
+        /* Header (Name and Contact Info) */
+        .header {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin: 0 0 5px 0;
+            font-weight: bold;
+        }
+
+        .contact-info {
+            font-size: 11px;
+            margin: 0;
+        }
+
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        /* Section Styling */
+        .section {
+            margin-bottom: 18px;
+        }
+
+        .section-title {
+            font-size: 14px;
+            font-weight: bold;
+            border-bottom: 1px solid #333;
+            padding-bottom: 2px;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+
+        /* Job/Project/Education Entry Styling */
+        .entry {
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        /* Employer Group Styling for multi-role listings */
+        .employer-group {
+            margin-bottom: 8px;
+        }
+
+        /* Entry Header/Metadata */
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .entry-title {
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        /* New: Styling for the main company name and location */
+        .company-name {
+            font-size: 13px;
+            font-weight: bold;
+        }
+        .company-location {
+            font-size: 11px;
+        }
+
+        .position-details {
+             /* Adjust margin to tighten space after Company Name if it's an employer-group */
+            margin-top: 4px; 
+            margin-bottom: 4px;
+        }
+
+        .entry-location, .entry-date {
+            font-size: 11px;
+        }
+        
+        .entry-subheader {
+            font-size: 12px;
+            font-style: italic;
+            margin-top: 2px;
+        }
+
+        /* List Styling (Job descriptions) */
+        .entry ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin-top: 4px;
+            font-size: 11px;
+        }
+
+        .entry ul li {
+            margin-bottom: 2px;
+        }
+        
+        /* Skills Specific Styling */
+        .skills-content {
+            font-size: 11px;
+        }
+        
+        .skills-content strong {
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <h1>Ruby Swift</h1>
+        <p class="contact-info">
+            Cambridge, MA 02318 • rswift@college.harvard.edu • 617-495-2595 • <a href="https://github.com/rswift26" target="_blank">https://github.com/rswift26</a>
+        </p>
+    </header>
+    
+    <section class="section">
+        <h2 class="section-title">Relevant Experience</h2>
+
+        <div class="employer-group">
+            <div class="entry-header">
+                <span class="company-name">MICROSOFT</span>
+                <span class="company-location">New York, NY</span>
+            </div>
+            
+            <div class="entry position-details">
+                <div class="entry-header">
+                    <span class="entry-subheader">Software Engineering Intern</span>
+                    <span class="entry-date">June - August 2025</span>
+                </div>
+                <ul>
+                    <li>Designed and implemented a productivity add-on for Office using C# and VSTO in .NET framework to automate and synchronize activity reporting.</li>
+                    <li>Created testing and demonstration suites for software.</li>
+                </ul>
+            </div>
+
+            <div class="entry position-details" style="margin-top: 10px;">
+                <div class="entry-header">
+                    <span class="entry-subheader">Junior Developer Intern (Example Role)</span>
+                    <span class="entry-date">June - August 2024</span>
+                </div>
+                <ul>
+                    <li>Contributed to front-end development of internal dashboard using React and TypeScript.</li>
+                    <li>Participated in daily stand-ups and code reviews, maintaining compliance with team standards.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">HARVARD UNIVERSITY</span>
+                <span class="entry-location">Cambridge, MA</span>
+            </div>
+            <div class="entry-header">
+                <span class="entry-subheader">Teaching Fellow, Introduction to Computer Science</span>
+                <span class="entry-date">September 2024 – May 2025</span>
+            </div>
+            <ul>
+                <li>Taught class of 21 students to program in C, PHP, JavaScript, and object-oriented concepts.</li>
+                <li>Maintained weekly office hours and problem-solving sessions.</li>
+                <li>Graded problem sets and exams.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">TECH HILLS</span>
+                <span class="entry-location">Laguna Hills, CA</span>
+            </div>
+            <div class="entry-header">
+                <span class="entry-subheader">Technology Intern</span>
+                <span class="entry-date">June – August 2024</span>
+            </div>
+            <ul>
+                <li>Implemented new web site including back-end and database storage system and dynamic web pages.</li>
+                <li>Developed and conducted usability tests, implementing enhancements to improve user experience.</li>
+            </ul>
+        </div>
+        
+    </section>
+    
+    <section class="section">
+        <h2 class="section-title">Technical Skills & Projects</h2>
+
+        <div class="skills-content">
+            <p>
+                <strong>Programming:</strong> C, C++, C#, SQL, Python, MATLAB, JavaScript, OCaml.<br>
+                <strong>Design:</strong> Wix, Adobe XD, Figma
+            </p>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Firewall Network: CS 145 Final Project</span>
+                <span class="entry-date">Jan. 2024 - May 2025</span>
+            </div>
+            <p class="skills-content">Implemented a basic rule-based firewall for programmable network switches using the P4 programming domain-specific language. Allows user to block network traffic based on 5-tuple, including variable-length ranges of IP addresses.</p>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">Image Generation Add On: CS 50 Final Project</span>
+                <span class="entry-date">Sept. 2022 - Dec. 2023</span>
+            </div>
+            <p class="skills-content">Created a Google Chrome extension that allows users to replace the images on websites they visit with pictures of animals. Implemented using a combination of HTML, CSS, and Javascript.</p>
+        </div>
+
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Education</h2>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">HARVARD UNIVERSITY</span>
+                <span class="entry-location">Cambridge, MA</span>
+            </div>
+            <div class="entry-header">
+                <span class="entry-subheader">AB in Computer Science</span>
+                <span class="entry-date">May 2026</span>
+            </div>
+            <p class="skills-content">
+                Relevant Coursework: Systems Programming, Data Structures and Algorithms, Artificial Intelligence, Introduction to Probability, Multivariable Calculus<br>
+                Commit 20 hours per week to the Harvard Varsity Lacrosse Program.
+            </p>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <span class="entry-title">IRVINE HIGH SCHOOL</span>
+                <span class="entry-location">Irvine, CA</span>
+            </div>
+            <div class="entry-header">
+                <span class="entry-subheader">High School Diploma</span>
+                <span class="entry-date">June 2022</span>
+            </div>
+            <p class="skills-content">
+                National Merit Scholar Finalist. Member of Varsity Lacrosse Team.
+            </p>
+        </div>
+
+    </section>
+
+</body>
+</html>
