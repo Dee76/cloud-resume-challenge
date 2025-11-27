@@ -31,11 +31,13 @@ Adjust the resume as follows:
 ```
 
 Image provided to LLM:
+
 ![Example résumé in the Harvard College Résumé Format for tech](docs/Harvard-College-CS-Resume-Example.png)
 
 This is the [generated output](docs/20251127-generated-resume.html) (with example data from Harvard) which I will refactor.
 
 Here is what the generated HTMl looks like unaltered:
+
 ![Screen shot of the generated resume in a web browser](docs/20251127-generated-resume-rendered.png)
 
 ## HTML Adjustments
